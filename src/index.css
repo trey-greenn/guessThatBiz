@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+
+background {
+    color: black;
+    background: black;
+}
+body {
+    background-color: #121212;  /* Dark background */
+    color: #e0e0e0;             /* Light text for contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;             /* White headings */
+    margin-bottom: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #1e90ff;             /* Bright blue links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1c86ee;             /* Slightly darker blue on hover */
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #333333;  /* Dark button background */
+    color: #ffffff;             /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444444;  /* Lighter on hover */
+  }
+  
+  /* Input Fields */
+  input, textarea {
+    background-color: #222222;  /* Dark background for inputs */
+    color: #ffffff;             /* Light text */
+    border: 1px solid #444444;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #aaaaaa;             /* Placeholder text color */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1f1f1f;  /* Dark navbar background */
+    padding: 15px;
+  }
+  
+  .navbar a {
+    color: #ffffff;             /* White text in navbar */
+    padding: 10px;
+  }
+  
+  .navbar a:hover {
+    color: #1e90ff;             /* Bright blue on hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1f1f1f;  /* Dark footer background */
+    color: #999999;             /* Slightly lighter text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Card or Box */
+  .card {
+    background-color: #222222;  /* Dark card background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  /* Shadow for effect */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  }
+  
